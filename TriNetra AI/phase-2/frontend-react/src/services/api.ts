@@ -15,6 +15,9 @@ export interface ClaimSummary {
   updatedAt?: string;
   verificationId?: string;
   unitId?: string;
+  sourceCaseId?: string;
+  sourcePlatform?: string;
+  sourceComplaintType?: string;
 }
 
 export interface ClaimDetail extends ClaimSummary {
@@ -29,24 +32,27 @@ export interface ClaimDetail extends ClaimSummary {
   observedSerial?: string;
   expectedImei?: string;
   observedImei?: string;
-  checkpoints?: Array<{ checkpointId: string; sequenceNumber: number; observedSerial: string; observedImei?: string; decision: string; location?: string }>;
+  checkpoints?: Array<{ checkpointId: string; sequenceNumber: number; expectedSerial?: string; observedSerial: string; expectedImei?: string; observedImei?: string; decision: string; location?: string }>;
   custody?: Array<{ custodyEventId: string; fromActor?: string; toActor: string; action: string; location?: string; occurredAt: string }>;
   audit?: Array<{ auditEventId: string; eventType: string; actorId: string; createdAt: string }>;
 }
 
 export const fetchClaims = async (status?: string): Promise<{ claims: ClaimSummary[]; total: number }> => {
   try {
-    const res = await axios.get<Array<{ verificationId: string; unitId: string; operatorId: string; state: string; createdAt: string; updatedAt: string }>>(`${V3_API}/verifications`);
+    const res = await axios.get<Array<{ verificationId: string; unitId: string; operatorId: string; state: string; createdAt: string; updatedAt: string; product?: string; sourceCaseId?: string; sourcePlatform?: string; sourceComplaintType?: string }>>(`${V3_API}/verifications`);
     const claims = res.data.map(item => ({
       claimId: item.verificationId,
       caseId: item.verificationId,
       orderId: item.unitId,
-      product: 'Serialized unit',
+      product: item.product || 'Serialized unit',
       status: item.state,
       state: item.state,
       verificationId: item.verificationId,
       unitId: item.unitId,
       updatedAt: item.updatedAt,
+      sourceCaseId: item.sourceCaseId,
+      sourcePlatform: item.sourcePlatform,
+      sourceComplaintType: item.sourceComplaintType,
     }));
     const filtered = status && status !== 'ALL'
       ? claims.filter(claim => claim.state === status)
@@ -81,6 +87,9 @@ export const fetchClaimDetail = async (claimId: string): Promise<ClaimDetail | n
       checkpoints,
       custody: res.data.custody || [],
       audit: res.data.audit || [],
+      sourceCaseId: res.data.unit?.sourceCaseId,
+      sourcePlatform: res.data.unit?.sourcePlatform,
+      sourceComplaintType: res.data.unit?.sourceComplaintType,
     };
   } catch (error) {
     console.error(`Failed to fetch claim detail for ${claimId}:`, error);

@@ -1,0 +1,29 @@
+# Real-Data V3 Demo
+
+The live demo uses three records from `TriNetra AI/xscrapper/trinetra_real_complaints_expanded.csv`.
+The complaint records provide source context; the serialized identities are controlled demo identities because the complaint dataset does not contain physical serial/IMEI values.
+
+| Dataset case | Platform | Complaint type | V3 observation | Result |
+| --- | --- | --- | --- | --- |
+| CMP_00001 | Ajio | Pickup Failure | Wrong observed serial | HOLD |
+| CMP_00002 | Amazon | Counterfeit Product | Wrong observed serial | HOLD |
+| CMP_00003 | Meesho | Used Product | Matching serial + DAMAGED condition | REVIEW |
+
+## Run
+
+1. Start the backend from `backend` with `mvn spring-boot:run`.
+2. Start the dashboard from `TriNetra AI/phase-2/frontend-react` with `npm run dev`.
+3. Connect the phone and run `adb reverse tcp:8080 tcp:8080`.
+4. Launch the installed `com.trinetra.ai` app.
+5. Open `http://localhost:3000`.
+
+The backend seeds units `XS-CMP-00001`, `XS-CMP-00002`, and `XS-CMP-00003`. Their source case, platform, and complaint type are visible in the web investigation view. The phone can reach the same backend through `127.0.0.1:8080` after USB reverse networking.
+
+## Verified
+
+- Backend tests pass.
+- React production build passes.
+- The phone process launches without fatal Android logs.
+- Phone-side HTTP request returns all three persisted V3 verifications.
+- Web queue displays HOLD, HOLD, and REVIEW.
+- Selecting CMP_00003 displays its Meesho source provenance and REVIEW checkpoint.

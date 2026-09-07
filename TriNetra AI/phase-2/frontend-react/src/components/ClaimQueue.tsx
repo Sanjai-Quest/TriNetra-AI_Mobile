@@ -41,24 +41,26 @@ export const ClaimQueue: React.FC<ClaimQueueProps> = ({
     }
     switch (verdict.toUpperCase()) {
       case 'CONSISTENT':
+      case 'PASS':
         return (
           <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
             <CheckCircle2 className="w-3 h-3" />
-            <span>CONSISTENT</span>
+            <span>{verdict.toUpperCase() === 'PASS' ? 'PASS' : 'CONSISTENT'}</span>
           </span>
         );
       case 'CONFLICT':
+      case 'HOLD':
         return (
           <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded text-[11px] font-semibold bg-rose-500/10 text-rose-400 border border-rose-500/20">
             <XCircle className="w-3 h-3" />
-            <span>CONFLICT</span>
+            <span>{verdict.toUpperCase() === 'HOLD' ? 'HOLD' : 'CONFLICT'}</span>
           </span>
         );
       default:
         return (
           <span className="inline-flex items-center space-x-1 px-2 py-0.5 rounded text-[11px] font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
             <AlertTriangle className="w-3 h-3" />
-            <span>INVESTIGATE</span>
+            <span>{verdict.toUpperCase() === 'REVIEW' ? 'REVIEW' : 'INVESTIGATE'}</span>
           </span>
         );
     }

@@ -43,6 +43,9 @@ public class Checkpoint {
     @Column(name = "observed_imei", length = 128)
     private String observedImei;
 
+    @Column(name = "condition_status", length = 32)
+    private String conditionStatus;
+
     @Column(name = "identity_result", nullable = false, length = 32)
     private String identityResult;
 

@@ -201,7 +201,11 @@ CREATE TABLE serialized_units (
     order_id VARCHAR(64) NOT NULL,
     product VARCHAR(128) NOT NULL,
     expected_serial VARCHAR(128) NOT NULL,
-    expected_imei VARCHAR(128)
+    expected_imei VARCHAR(128),
+    source_case_id VARCHAR(64),
+    source_platform VARCHAR(64),
+    source_complaint_type VARCHAR(128),
+    source_summary TEXT
 );
 
 CREATE TABLE verifications (
@@ -224,6 +228,7 @@ CREATE TABLE checkpoints (
     observed_serial VARCHAR(128) NOT NULL,
     expected_imei VARCHAR(128),
     observed_imei VARCHAR(128),
+    condition_status VARCHAR(32),
     identity_result VARCHAR(32) NOT NULL,
     decision VARCHAR(16) NOT NULL,
     client_event_id VARCHAR(64) NOT NULL UNIQUE
@@ -251,4 +256,7 @@ CREATE TABLE audit_events (
 );
 
 INSERT INTO serialized_units VALUES
-    ('UNIT-SN001', 'ORD-98402', 'Smartphone', 'SN001', 'IMEI001');
+    ('UNIT-SN001', 'ORD-98402', 'Smartphone', 'SN001', 'IMEI001', NULL, NULL, NULL, NULL),
+    ('XS-CMP-00001', 'ORD-20001', 'Footwear', 'XS-CMP-00001-SN', NULL, 'CMP_00001', 'Ajio', 'Pickup Failure', 'Ordered Adidas sneakers on Ajio. Delivered wrong shoe size; pickup agent cited box damage.'),
+    ('XS-CMP-00002', 'ORD-50002', 'Apparel/Clothing', 'XS-CMP-00002-SN', NULL, 'CMP_00002', 'Amazon', 'Counterfeit Product', 'Nike sneakers were reported counterfeit with poor sole stitching and delayed refund.'),
+    ('XS-CMP-00003', 'ORD-20003', 'Apparel/Clothing', 'XS-CMP-00003-SN', NULL, 'CMP_00003', 'Meesho', 'Used Product', 'A designer saree was reported used, stained, and torn after delivery.');

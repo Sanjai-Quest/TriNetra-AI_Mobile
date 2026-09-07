@@ -72,7 +72,7 @@ public class VerdictService {
 
         public Verdict evaluateCheckpoint(String expectedSerial, String observedSerial,
                           String expectedImei, String observedImei,
-                          boolean continuityBroken, String checkpointId) {
+                                          String conditionStatus, boolean continuityBroken, String checkpointId) {
         Claim checkpointClaim = Claim.builder()
             .claimId(checkpointId)
             .merchantId("checkpoint")
@@ -86,7 +86,7 @@ public class VerdictService {
             .observedSerial(observedSerial)
             .expectedImei(expectedImei)
             .observedImei(observedImei)
-            .conditionStatus("NORMAL")
+                .conditionStatus(conditionStatus == null ? "NORMAL" : conditionStatus)
             .continuityBroken(continuityBroken)
             .mandatoryEvidenceComplete(true)
             .custodyValid(true)

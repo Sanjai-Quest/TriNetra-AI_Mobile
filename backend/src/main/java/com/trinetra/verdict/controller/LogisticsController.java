@@ -30,8 +30,24 @@ public class LogisticsController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Verification>> list() {
-        return ResponseEntity.ok(logisticsService.listVerifications());
+    public ResponseEntity<List<Map<String, Object>>> list() {
+        List<Map<String, Object>> result = new java.util.ArrayList<>();
+        for (Verification verification : logisticsService.listVerifications()) {
+            SerializedUnit unit = logisticsService.unitFor(verification.getUnitId());
+            Map<String, Object> item = new LinkedHashMap<>();
+            item.put("verificationId", verification.getVerificationId());
+            item.put("unitId", verification.getUnitId());
+            item.put("operatorId", verification.getOperatorId());
+            item.put("state", verification.getState());
+            item.put("createdAt", verification.getCreatedAt());
+            item.put("updatedAt", verification.getUpdatedAt());
+            item.put("product", unit.getProduct());
+            item.put("sourceCaseId", unit.getSourceCaseId());
+            item.put("sourcePlatform", unit.getSourcePlatform());
+            item.put("sourceComplaintType", unit.getSourceComplaintType());
+            result.add(item);
+        }
+        return ResponseEntity.ok(result);
     }
 
     @GetMapping("/{verificationId}")
@@ -101,6 +117,7 @@ public class LogisticsController {
         try {
             Map<String, Object> result = new LinkedHashMap<>();
             result.put("verification", logisticsService.getVerification(verificationId));
+            result.put("unit", logisticsService.unitFor(logisticsService.getVerification(verificationId).getUnitId()));
             result.put("checkpoints", logisticsService.checkpoints(verificationId));
             result.put("custody", logisticsService.custody(verificationId));
             result.put("audit", logisticsService.audit(verificationId));

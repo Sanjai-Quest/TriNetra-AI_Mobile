@@ -65,7 +65,8 @@ public class LogisticsService {
         boolean continuityBroken = prior != null && (!same(prior.getObservedSerial(), request.getObservedSerial())
                 || !sameNullable(prior.getObservedImei(), request.getObservedImei()));
         Verdict verdict = verdictService.evaluateCheckpoint(unit.getExpectedSerial(), request.getObservedSerial(),
-                unit.getExpectedImei(), request.getObservedImei(), continuityBroken, request.getCheckpointId());
+            unit.getExpectedImei(), request.getObservedImei(), request.getConditionStatus(), continuityBroken,
+            request.getCheckpointId());
         if (continuityBroken) {
             verdict.setConflictType(ConflictType.CONTINUITY_BROKEN);
             verdict.setReasoning("Unit continuity broken after checkpoint " + prior.getCheckpointId()
@@ -83,6 +84,7 @@ public class LogisticsService {
                 .observedSerial(request.getObservedSerial())
                 .expectedImei(unit.getExpectedImei())
                 .observedImei(request.getObservedImei())
+                .conditionStatus(request.getConditionStatus())
                 .identityResult(verdict.getDecision() == DecisionStatus.PASS ? "MATCH" : "CONFLICT")
                 .decision(verdict.getDecision())
                 .clientEventId(request.getClientEventId())
@@ -156,6 +158,11 @@ public class LogisticsService {
 
     public List<Verification> listVerifications() {
         return verificationRepository.findAll();
+    }
+
+    public SerializedUnit unitFor(String unitId) {
+        return unitRepository.findById(unitId)
+                .orElseThrow(() -> new IllegalArgumentException("Serialized unit not found: " + unitId));
     }
 
     public List<Checkpoint> checkpoints(String verificationId) {

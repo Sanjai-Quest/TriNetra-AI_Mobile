@@ -40,6 +40,7 @@ export const ClaimDetailView: React.FC<ClaimDetailViewProps> = ({ claim, onOpenO
           <span className="text-[11px] font-mono text-indigo-400 font-bold uppercase">Claim Detail</span>
           <h2 className="text-lg font-bold text-white font-mono">{claim.orderId}</h2>
           <p className="text-xs text-slate-400">Case {claim.caseId || claim.claimId} · {claim.product || 'Smartphone'}</p>
+          {claim.sourceCaseId && <p className="text-[11px] text-cyan-300">xscrapper: {claim.sourceCaseId} · {claim.sourcePlatform} · {claim.sourceComplaintType}</p>}
         </div>
         <button onClick={onOpenOverride} className="text-xs px-3 py-2 rounded-lg bg-amber-500/15 text-amber-300 border border-amber-500/30">
           Investigator decision
@@ -57,6 +58,13 @@ export const ClaimDetailView: React.FC<ClaimDetailViewProps> = ({ claim, onOpenO
         <div className="flex items-center gap-2 text-amber-300 font-bold"><AlertTriangle className="w-4 h-4" /> {claim.state || 'INVESTIGATE'}</div>
         <p className="mt-2 text-sm text-slate-300">{claim.reasoning || 'Persisted V3 investigation data loaded.'}</p>
       </section>
+
+      {claim.sourceCaseId && (
+        <section className="rounded-xl border border-cyan-500/30 bg-cyan-500/10 p-4">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-cyan-300">Real complaint source</h3>
+          <p className="mt-2 text-xs text-slate-300">Dataset record {claim.sourceCaseId} from {claim.sourcePlatform}; classified as {claim.sourceComplaintType}.</p>
+        </section>
+      )}
 
       <section className="space-y-3">
         <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">Checkpoints</h3>

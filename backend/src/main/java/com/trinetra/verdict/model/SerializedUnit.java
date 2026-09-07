@@ -28,4 +28,16 @@ public class SerializedUnit {
 
     @Column(name = "expected_imei", length = 128)
     private String expectedImei;
+
+    @Column(name = "source_case_id", length = 64)
+    private String sourceCaseId;
+
+    @Column(name = "source_platform", length = 64)
+    private String sourcePlatform;
+
+    @Column(name = "source_complaint_type", length = 128)
+    private String sourceComplaintType;
+
+    @Column(name = "source_summary", columnDefinition = "TEXT")
+    private String sourceSummary;
 }

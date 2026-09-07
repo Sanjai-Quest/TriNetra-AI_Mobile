@@ -12,4 +12,5 @@ public class CheckpointRequest {
     private String capturedAt;
     private String observedSerial;
     private String observedImei;
+    private String conditionStatus;
 }
