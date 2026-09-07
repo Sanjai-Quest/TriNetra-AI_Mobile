@@ -22,6 +22,10 @@ public class Checkpoint {
     @Column(name = "sequence_number", nullable = false)
     private int sequenceNumber;
 
+    @Enumerated(EnumType.STRING)
+    @Column(name = "checkpoint_type", nullable = false, length = 32)
+    private CheckpointType checkpointType;
+
     @Column(name = "location", length = 128)
     private String location;
 

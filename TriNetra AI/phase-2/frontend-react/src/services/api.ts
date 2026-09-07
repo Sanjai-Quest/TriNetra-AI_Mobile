@@ -32,9 +32,12 @@ export interface ClaimDetail extends ClaimSummary {
   observedSerial?: string;
   expectedImei?: string;
   observedImei?: string;
-  checkpoints?: Array<{ checkpointId: string; sequenceNumber: number; expectedSerial?: string; observedSerial: string; expectedImei?: string; observedImei?: string; decision: string; location?: string }>;
+  checkpoints?: Array<{ checkpointId: string; sequenceNumber: number; checkpointType?: string; expectedSerial?: string; observedSerial: string; expectedImei?: string; observedImei?: string; decision: string; location?: string }>;
   custody?: Array<{ custodyEventId: string; fromActor?: string; toActor: string; action: string; location?: string; occurredAt: string }>;
   audit?: Array<{ auditEventId: string; eventType: string; actorId: string; createdAt: string }>;
+  investigations?: Array<{ investigationId: string; status: string; reason: string; lastMatchingCheckpointId?: string; firstDivergenceCheckpointId?: string }>;
+  firstKnownDivergence?: { checkpointId: string; sequenceNumber: number; observedSerial: string; decision: string } | null;
+  lastKnownMatchingCheckpoint?: { checkpointId: string; sequenceNumber: number; observedSerial: string; decision: string } | null;
 }
 
 export const fetchClaims = async (status?: string): Promise<{ claims: ClaimSummary[]; total: number }> => {
@@ -87,6 +90,13 @@ export const fetchClaimDetail = async (claimId: string): Promise<ClaimDetail | n
       checkpoints,
       custody: res.data.custody || [],
       audit: res.data.audit || [],
+      investigations: res.data.investigations || [],
+      firstKnownDivergence: res.data.investigations?.[0]?.firstDivergenceCheckpointId
+        ? checkpoints.find((item: { checkpointId: string }) => item.checkpointId === res.data.investigations[0].firstDivergenceCheckpointId) || null
+        : null,
+      lastKnownMatchingCheckpoint: res.data.investigations?.[0]?.lastMatchingCheckpointId
+        ? checkpoints.find((item: { checkpointId: string }) => item.checkpointId === res.data.investigations[0].lastMatchingCheckpointId) || null
+        : null,
       sourceCaseId: res.data.unit?.sourceCaseId,
       sourcePlatform: res.data.unit?.sourcePlatform,
       sourceComplaintType: res.data.unit?.sourceComplaintType,

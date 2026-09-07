@@ -12,6 +12,8 @@ import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.Locale;
 import java.util.UUID;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
@@ -21,6 +23,7 @@ public class LogisticsService {
     private final CheckpointRepository checkpointRepository;
     private final CustodyEventRepository custodyRepository;
     private final AuditEventRepository auditRepository;
+    private final InvestigationRepository investigationRepository;
     private final VerdictService verdictService;
 
     @Transactional
@@ -77,6 +80,7 @@ public class LogisticsService {
                 .checkpointId(request.getCheckpointId())
                 .verificationId(verificationId)
                 .sequenceNumber(request.getSequenceNumber())
+                .checkpointType(request.getCheckpointType() == null ? CheckpointType.RETURN_RECEIVING : request.getCheckpointType())
                 .location(request.getLocation())
                 .operatorId(request.getOperatorId())
                 .capturedAt(parseTime(request.getCapturedAt()))
@@ -93,6 +97,9 @@ public class LogisticsService {
         verification.setState(stateFor(verdict.getDecision()));
         verification.setUpdatedAt(LocalDateTime.now());
         verificationRepository.save(verification);
+        if (verdict.getDecision() == DecisionStatus.HOLD) {
+            createInvestigation(verification, unit, checkpoint, prior);
+        }
         audit(verificationId, "CHECKPOINT_SUBMITTED", request.getOperatorId(),
                 "{\"checkpointId\":\"" + saved.getCheckpointId() + "\",\"decision\":\""
                         + saved.getDecision() + "\"}");
@@ -180,6 +187,41 @@ public class LogisticsService {
         return auditRepository.findByVerificationIdOrderByCreatedAtAsc(verificationId);
     }
 
+    public List<Investigation> investigations(String verificationId) {
+        getVerification(verificationId);
+        return investigationRepository.findByVerificationId(verificationId).map(List::of).orElse(List.of());
+    }
+
+    public Map<String, Object> unitHistory(String unitId) {
+        SerializedUnit unit = unitFor(unitId);
+        List<Map<String, Object>> verificationHistory = new java.util.ArrayList<>();
+        Checkpoint firstDivergence = null;
+        Checkpoint lastMatch = null;
+        for (Verification verification : verificationRepository.findByUnitIdOrderByCreatedAtAsc(unitId)) {
+            List<Checkpoint> checkpoints = checkpointRepository
+                    .findByVerificationIdOrderBySequenceNumberAsc(verification.getVerificationId());
+            for (Checkpoint checkpoint : checkpoints) {
+                if (same(unit.getExpectedSerial(), checkpoint.getObservedSerial())
+                        && sameNullable(unit.getExpectedImei(), checkpoint.getObservedImei())) {
+                    lastMatch = checkpoint;
+                } else if (firstDivergence == null) {
+                    firstDivergence = checkpoint;
+                }
+                Map<String, Object> item = new LinkedHashMap<>();
+                item.put("verificationId", verification.getVerificationId());
+                item.put("checkpoint", checkpoint);
+                item.put("isFirstKnownDivergence", firstDivergence == checkpoint);
+                verificationHistory.add(item);
+            }
+        }
+        Map<String, Object> history = new LinkedHashMap<>();
+        history.put("unit", unit);
+        history.put("checkpoints", verificationHistory);
+        history.put("firstKnownDivergence", firstDivergence);
+        history.put("lastKnownMatchingCheckpoint", lastMatch);
+        return history;
+    }
+
     private void audit(String verificationId, String type, String actorId, String payload) {
         auditRepository.save(AuditEvent.builder()
                 .auditEventId(UUID.randomUUID().toString())
@@ -190,6 +232,25 @@ public class LogisticsService {
                 .createdAt(LocalDateTime.now())
                 .build());
     }
+
+        private void createInvestigation(Verification verification, SerializedUnit unit,
+                         Checkpoint current, Checkpoint prior) {
+        if (investigationRepository.findByVerificationId(verification.getVerificationId()).isPresent()) return;
+        investigationRepository.save(Investigation.builder()
+            .investigationId("INV-" + UUID.randomUUID())
+            .verificationId(verification.getVerificationId())
+            .unitId(unit.getUnitId())
+            .status(InvestigationStatus.OPEN)
+            .reason("UNIT_CONTINUITY_BROKEN")
+            .expectedSerial(unit.getExpectedSerial())
+            .observedSerial(current.getObservedSerial())
+            .lastMatchingCheckpointId(prior == null ? null : prior.getCheckpointId())
+            .firstDivergenceCheckpointId(current.getCheckpointId())
+            .createdAt(LocalDateTime.now())
+            .build());
+        audit(verification.getVerificationId(), "INVESTIGATION_OPENED", verification.getOperatorId(),
+            "{\"checkpointId\":\"" + current.getCheckpointId() + "\",\"reason\":\"UNIT_CONTINUITY_BROKEN\"}");
+        }
 
     private VerificationState stateFor(DecisionStatus decision) {
         return switch (decision) {

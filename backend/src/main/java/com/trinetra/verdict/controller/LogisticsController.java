@@ -121,6 +121,7 @@ public class LogisticsController {
             result.put("checkpoints", logisticsService.checkpoints(verificationId));
             result.put("custody", logisticsService.custody(verificationId));
             result.put("audit", logisticsService.audit(verificationId));
+            result.put("investigations", logisticsService.investigations(verificationId));
             return ResponseEntity.ok(result);
         } catch (IllegalArgumentException error) {
             return error(HttpStatus.NOT_FOUND, error.getMessage());

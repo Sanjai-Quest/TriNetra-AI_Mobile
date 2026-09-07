@@ -2,7 +2,7 @@
 
 **Report date:** 2026-09-07  
 **Published branch:** `v3-logistics-control`  
-**Latest published commit:** `6ad5d84`  
+**Latest published commit:** see the `v3-logistics-control` branch history  
 **Repository:** `https://github.com/Sanjai-Quest/TriNetra-AI_Mobile`
 
 ## 1. Executive Summary
@@ -33,6 +33,9 @@ Web investigation: identity, checkpoints, custody, and audit visible
 
 Three real complaint records from the xscrapper dataset were also connected to controlled serialized-unit demo records and tested through the same backend and web flow.
 
+The first-known-divergence and persisted-investigation milestone is included in
+the current working tree and is verified below.
+
 ## 2. Work Completed
 
 ### Decision core
@@ -60,6 +63,10 @@ Three real complaint records from the xscrapper dataset were also connected to c
 - Added server-side release gating.
 - Prevented custody transitions from overwriting `HOLD` or `REVIEW`.
 - Added aggregate investigation retrieval.
+- Added lifecycle checkpoint types: outbound warehouse, courier handoff, final release, return receiving, and investigation recheck.
+- Added `GET /api/units/{unitId}/history`.
+- Added deterministic first-known-divergence and last-known-matching checkpoint reporting.
+- Added persisted open investigation creation on identity/continuity HOLD.
 
 ### Mobile application
 
@@ -267,6 +274,7 @@ The React app is presentation-only. It does not calculate or authorize decisions
 | `GET` | `/api/verifications/{id}/audit` | Retrieve immutable audit events. |
 | `GET` | `/api/verifications/{id}/investigation` | Retrieve the complete investigation view. |
 | `POST` | `/api/verifications/{id}/release` | Enforce server-side release control. |
+| `GET` | `/api/units/{id}/history` | Reconstruct persisted unit history and first divergence. |
 
 The legacy `/api/claims/*` endpoints remain for compatibility with the older compact demo path. The V3 logistics flow uses `/api/verifications/*`.
 
@@ -399,6 +407,7 @@ Verified during this implementation:
 - Real BLE hardware provisioning, signature validation, and replay protection are not production-complete.
 - Office Kit integration is not implemented.
 - The three xscrapper records provide real complaint provenance, not real device serial/IMEI evidence.
+- Investigation resolution actions are not yet implemented; conflict investigations are persisted as `OPEN`.
 
 ## 10. Current Conclusion
 

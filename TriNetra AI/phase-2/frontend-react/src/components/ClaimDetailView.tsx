@@ -66,13 +66,22 @@ export const ClaimDetailView: React.FC<ClaimDetailViewProps> = ({ claim, onOpenO
         </section>
       )}
 
+      {claim.investigations?.map(investigation => (
+        <section key={investigation.investigationId} className="rounded-xl border border-rose-500/30 bg-rose-500/10 p-4">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-rose-300">Investigation {investigation.status}</h3>
+          <p className="mt-2 text-xs text-slate-300">Reason: {investigation.reason}</p>
+          <p className="mt-1 text-xs text-slate-400">Last matching checkpoint: {investigation.lastMatchingCheckpointId || 'None'}</p>
+          <p className="mt-1 text-xs text-slate-400">First known divergence: {investigation.firstDivergenceCheckpointId || 'None'}</p>
+        </section>
+      ))}
+
       <section className="space-y-3">
         <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">Checkpoints</h3>
         {claim.checkpoints?.map(checkpoint => (
           <div key={checkpoint.checkpointId} className="rounded-xl border border-slate-800 bg-slate-950/70 p-3 text-xs">
             <div className="flex justify-between text-white"><span>Checkpoint {checkpoint.sequenceNumber}</span><strong>{checkpoint.decision}</strong></div>
             <div className="mt-1 text-slate-400">Serial: {checkpoint.observedSerial} · IMEI: {checkpoint.observedImei || 'N/A'}</div>
-            <div className="mt-1 text-slate-500">{checkpoint.location || 'Location unavailable'}</div>
+            <div className="mt-1 text-slate-500">{checkpoint.location || 'Location unavailable'}{checkpoint.checkpointType ? ` · ${checkpoint.checkpointType}` : ''}</div>
           </div>
         ))}
       </section>

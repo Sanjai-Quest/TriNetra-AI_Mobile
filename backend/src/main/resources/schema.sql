@@ -221,6 +221,7 @@ CREATE TABLE checkpoints (
     checkpoint_id VARCHAR(64) PRIMARY KEY,
     verification_id VARCHAR(64) NOT NULL REFERENCES verifications(verification_id),
     sequence_number INTEGER NOT NULL,
+    checkpoint_type VARCHAR(32) NOT NULL,
     location VARCHAR(128),
     operator_id VARCHAR(64) NOT NULL,
     captured_at TIMESTAMP NOT NULL,
@@ -252,6 +253,19 @@ CREATE TABLE audit_events (
     event_type VARCHAR(64) NOT NULL,
     actor_id VARCHAR(64) NOT NULL,
     payload_json TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL
+);
+
+CREATE TABLE investigations (
+    investigation_id VARCHAR(64) PRIMARY KEY,
+    verification_id VARCHAR(64) NOT NULL REFERENCES verifications(verification_id),
+    unit_id VARCHAR(64) NOT NULL REFERENCES serialized_units(unit_id),
+    status VARCHAR(16) NOT NULL,
+    reason VARCHAR(64) NOT NULL,
+    expected_serial VARCHAR(128) NOT NULL,
+    observed_serial VARCHAR(128) NOT NULL,
+    last_matching_checkpoint_id VARCHAR(64),
+    first_divergence_checkpoint_id VARCHAR(64),
     created_at TIMESTAMP NOT NULL
 );
 
