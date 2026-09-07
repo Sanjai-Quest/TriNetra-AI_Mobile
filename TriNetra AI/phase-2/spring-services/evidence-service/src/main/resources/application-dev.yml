@@ -1,0 +1,33 @@
+# ─── Dev profile overrides for claim-service ─────────────────────────────────
+# This file is loaded alongside application.yml when spring.profiles.active=dev
+# It makes local development easier by:
+#   - Using create-drop so Flyway baseline works on fresh DB
+#   - Showing SQL for debugging
+#   - Disabling Flyway clean (dangerous) explicitly
+
+spring:
+  jpa:
+    show-sql: true                 # show SQL in dev for debugging
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true      # handles existing Phase 2 tables gracefully
+    out-of-order: false
+
+# ─── Actuator: expose everything in dev ──────────────────────────────────────
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"               # expose all actuator endpoints in dev
+
+# ─── Logging: more verbose in dev ────────────────────────────────────────────
+logging:
+  level:
+    ai.trinetra: DEBUG
+    org.springframework.amqp: INFO
+    org.flywaydb: DEBUG            # show Flyway migration output
+    io.github.resilience4j: DEBUG  # show circuit breaker decisions

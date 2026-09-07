@@ -1,0 +1,122 @@
+version: '3.8'
+
+# TriNetra Phase 3 — Infrastructure Only
+# =========================================
+# Starts only the backing services (Postgres, Redis, RabbitMQ, MinIO).
+# Spring Boot services are started separately via Maven (see README below).
+#
+# Usage:
+#   docker-compose -f docker-compose.infra.yml up -d
+#   docker-compose -f docker-compose.infra.yml down
+#   docker-compose -f docker-compose.infra.yml ps
+
+services:
+
+  # ─── PostgreSQL ─────────────────────────────────────────────────────────────
+  postgres:
+    image: postgres:15-alpine
+    container_name: trinetra_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: trinetra
+      POSTGRES_USER: trinetra_user
+      POSTGRES_PASSWORD: trinetra_dev_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - trinetra_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U trinetra_user -d trinetra"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── Redis ──────────────────────────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: trinetra_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: redis-server --requirepass trinetra_redis_pass
+    volumes:
+      - trinetra_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "trinetra_redis_pass", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─── RabbitMQ ───────────────────────────────────────────────────────────────
+  rabbitmq:
+    image: rabbitmq:3.12-management-alpine
+    container_name: trinetra_rabbitmq
+    restart: unless-stopped
+    environment:
+      RABBITMQ_DEFAULT_USER: trinetra_admin
+      RABBITMQ_DEFAULT_PASS: trinetra_rabbit_pass
+    ports:
+      - "5672:5672"
+      - "15672:15672"    # RabbitMQ Management UI → http://localhost:15672
+    volumes:
+      - trinetra_rabbit_data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
+  # ─── MinIO ──────────────────────────────────────────────────────────────────
+  minio:
+    image: minio/minio:latest
+    container_name: trinetra_minio
+    restart: unless-stopped
+    environment:
+      MINIO_ROOT_USER: trinetra_minio
+      MINIO_ROOT_PASSWORD: trinetra_minio_pass
+    ports:
+      - "9000:9000"
+      - "9001:9001"      # MinIO Console → http://localhost:9001
+    command: server /data --console-address ":9001"
+    volumes:
+      - trinetra_minio_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  trinetra_pg_data:
+  trinetra_redis_data:
+  trinetra_rabbit_data:
+  trinetra_minio_data:
+
+# ─── After starting infrastructure, run Spring Boot services: ───────────────
+#
+# Terminal 1 (claim-service, port 8080):
+#   cd phase-2\spring-services
+#   mvn install -N -q
+#   cd claim-service
+#   mvn spring-boot:run -Dspring-boot.run.profiles=dev
+#
+# Terminal 2 (evidence-service, port 8081):
+#   cd phase-2\spring-services\evidence-service
+#   mvn spring-boot:run -Dspring-boot.run.profiles=dev
+#
+# Terminal 3 (fraud-detection-engine, port 8083):
+#   cd phase-2\spring-services\fraud-detection-engine
+#   mvn spring-boot:run -Dspring-boot.run.profiles=dev
+#
+# Terminal 4 (verdict-generator, port 8084):
+#   cd phase-2\spring-services\verdict-generator
+#   mvn spring-boot:run -Dspring-boot.run.profiles=dev
+#
+# Terminal 5 (integration-service, port 8085):
+#   cd phase-2\spring-services\integration-service
+#   mvn spring-boot:run -Dspring-boot.run.profiles=dev
+#
+# Health check:
+#   curl http://localhost:8080/api/v2/claims/health
+#   curl http://localhost:8080/actuator/health
+#   curl http://localhost:8080/actuator/prometheus

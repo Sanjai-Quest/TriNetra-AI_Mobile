@@ -1,0 +1,24 @@
+# Build output
+.gradle/
+**/build/
+**/target/
+**/dist/
+
+# IDE and local machine files
+.idea/
+.vscode/
+*.iml
+local.properties
+
+# Frontend dependencies
+**/node_modules/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example

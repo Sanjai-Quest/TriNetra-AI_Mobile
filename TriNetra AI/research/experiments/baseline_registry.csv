@@ -1,0 +1,5 @@
+Baseline_ID,Name,Inputs_Used,Detection_Logic,Intended_Purpose,Scientific_Limitation
+B1,Identity-Only Baseline,Product Barcode / SKU,Checks if return SKU matches order SKU,Represents standard retail barcode scan at return center,Fails when fraudulent return swaps contents inside genuine box
+B2,Weight-Only Baseline,Scale weights at dispatch and return,Checks if return weight is within 5% of catalog weight,Represents automated scale check at fulfillment hub,Fails when replacement item has identical weight or courier steal
+B3,Timeline-Only Baseline,Order and return timestamps,Flags returns submitted after statutory return window,Represents automated ERP policy cut-off,Fails on in-window fraud (wardrobing, empty box claims)
+B4,TriNetra Multi-Source Engine,"SKU, Weight, Timeline, Carrier Scan, Inspection",Cross-organizational deterministic reconciliation,Unifies all 5 telemetry sources into single dispute packet,Requires multi-stakeholder data sharing / integrations

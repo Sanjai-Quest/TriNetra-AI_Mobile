@@ -1,0 +1,9 @@
+Figure_ID,Figure_Title,Intended_Purpose,Data_Source_Required,Status,Can_Generate_Now
+FIG-01,TriNetra System Architecture & Microservices Flow,Illustrate 5-service asynchronous architecture and event bus,phase-2/README.md,READY,YES
+FIG-02,Cross-Organizational Evidence Reconciliation Pipeline,Depict 5 stakeholder telemetry streams unifying into canonical packet,phase-1/engine/reconciliation_engine.py,READY,YES
+FIG-03,Macro Grievance Trends in National Consumer Helpline (2015-2024),Show growth of e-commerce consumer complaints in India,Public_Datasets/RJ_Session_247_AU_1369.csv,READY,YES
+FIG-04,Micro Consumer Complaint Taxonomy & Distribution (n=1050),Show breakdown of real-world dispute categories (soap scam tag rejection),xscrapper/trinetra_real_complaints_expanded.csv,READY,YES
+FIG-05,Literature Classification & Research Focus Sunburst,Map 244 papers across 17 research themes,xscrapper/xscrapper/research_tool/output/trinetra_literature_dataset.csv,READY,YES
+FIG-06,Precision-Recall & ROC Comparison (Baselines vs TriNetra),Visualize TP/FP/FN trade-off across B1 B2 B3 and TriNetra,phase-1/results/benchmark_metrics.csv,READY,YES
+FIG-07,Ablation Study: Incremental Evidence Source Contribution,Show F1 score increase as evidence channels are unified,phase-1/baselines/ablation_study.py,READY,YES
+FIG-08,Phase 3 Load Testing Latency Distribution (p50/p95/p99),Demonstrate production-grade performance under concurrent load,phase-3/load_test/results/,READY,YES

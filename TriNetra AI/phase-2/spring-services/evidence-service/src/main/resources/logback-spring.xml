@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Phase 3: Structured JSON logging via Logstash Logback Encoder.
+  
+  Profiles:
+    default / prod  → JSON output (Logstash-compatible, ELK-ready)
+    dev             → Human-readable console pattern
+  
+  MDC fields automatically included in JSON output:
+    traceId, spanId, service, environment
+  
+  Log levels:
+    ai.trinetra.*  → DEBUG (fine-grained service tracing)
+    resilience4j.* → INFO  (circuit breaker state changes)
+    org.springframework.amqp → WARN (suppress RabbitMQ noise)
+-->
+<configuration>
+
+    <!-- ─── Properties ──────────────────────────────────────────────────── -->
+    <springProperty scope="context" name="appName" source="spring.application.name" defaultValue="trinetra-service"/>
+
+    <!-- ─── Console Appender (DEV profile: human readable) ─────────────── -->
+    <springProfile name="dev">
+        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level [%X{traceId:-}] %logger{36} - %msg%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+        </root>
+
+        <logger name="ai.trinetra" level="DEBUG"/>
+        <logger name="org.springframework.amqp" level="WARN"/>
+        <logger name="io.github.resilience4j" level="INFO"/>
+    </springProfile>
+
+    <!-- ─── JSON Appender (default / prod: Logstash-compatible) ─────────── -->
+    <springProfile name="!dev">
+        <appender name="JSON_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+                <!-- Include MDC fields (traceId, spanId set by Micrometer Tracing) -->
+                <includeMdcKeyName>traceId</includeMdcKeyName>
+                <includeMdcKeyName>spanId</includeMdcKeyName>
+
+                <!-- Add fixed service-level fields to every log record -->
+                <customFields>{"service":"${appName}","phase":"phase3","env":"${ENVIRONMENT:-dev}"}</customFields>
+
+                <!-- Shorten logger name for readability -->
+                <shortenedLoggerNameLength>36</shortenedLoggerNameLength>
+
+                <!-- Include caller info (class + line number) for DEBUG logs -->
+                <includeCallerData>false</includeCallerData>
+
+                <!-- ISO-8601 timestamps -->
+                <timestampPattern>yyyy-MM-dd'T'HH:mm:ss.SSSZ</timestampPattern>
+            </encoder>
+        </appender>
+
+        <!-- Rolling file appender (optional: useful for local troubleshooting) -->
+        <appender name="JSON_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+            <file>logs/${appName}.log</file>
+            <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                <fileNamePattern>logs/${appName}.%d{yyyy-MM-dd}.log</fileNamePattern>
+                <maxHistory>7</maxHistory>           <!-- keep 7 days -->
+                <totalSizeCap>500MB</totalSizeCap>
+            </rollingPolicy>
+            <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+                <customFields>{"service":"${appName}","phase":"phase3"}</customFields>
+            </encoder>
+        </appender>
+
+        <root level="INFO">
+            <appender-ref ref="JSON_STDOUT"/>
+            <appender-ref ref="JSON_FILE"/>
+        </root>
+
+        <!-- Fine-grained tracing for TriNetra business logic -->
+        <logger name="ai.trinetra" level="DEBUG"/>
+        <!-- Suppress chatty Spring AMQP connection noise -->
+        <logger name="org.springframework.amqp" level="WARN"/>
+        <!-- Circuit breaker state change events at INFO (important for ops) -->
+        <logger name="io.github.resilience4j" level="INFO"/>
+        <!-- Suppress Hibernate SQL echo -->
+        <logger name="org.hibernate.SQL" level="WARN"/>
+        <!-- Flyway migration progress at INFO -->
+        <logger name="org.flywaydb" level="INFO"/>
+    </springProfile>
+
+</configuration>

@@ -1,0 +1,7 @@
+System_Approach,Product_Identity,Product_Content_Verification,Weight_Verification,Timeline_Verification,Evidence_Provenance,Entity_Resolution,Multi_Source_Reconciliation,Cross_Org_Reconciliation,Pre_Dispatch_Verification,Post_Return_Verification,Customer_Involvement,Explainability,Dispute_Resolution
+Traditional Barcode/RFID (Zebra/Honeywell),YES,NO,NO,PARTIAL,PARTIAL,NO,NO,NO,YES,PARTIAL,NO,NO,NO
+Courier Tracking Systems (FedEx/Bluedart),PARTIAL,NO,PARTIAL,YES,YES,NO,NO,NO,PARTIAL,PARTIAL,YES,NO,NO
+Return Automation SaaS (Narvar/Loop),YES,NO,NO,PARTIAL,PARTIAL,NO,NO,NO,NO,YES,YES,PARTIAL,PARTIAL
+E-Commerce Dispute Classifiers (eBay/Amazon),PARTIAL,NO,NO,PARTIAL,NO,NO,NO,NO,NO,PARTIAL,YES,PARTIAL,YES
+Blockchain Provenance (ESPRES/PharmaChain),YES,PARTIAL,NO,YES,YES,PARTIAL,PARTIAL,PARTIAL,YES,PARTIAL,NO,PARTIAL,PARTIAL
+TriNetra AI (Proposed Framework),YES,YES,YES,YES,YES,YES,YES,YES,YES,YES,YES,YES,YES
