@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -24,6 +25,11 @@ public class LogisticsController {
         } catch (IllegalArgumentException error) {
             return error(HttpStatus.BAD_REQUEST, error.getMessage());
         }
+    }
+
+    @GetMapping
+    public ResponseEntity<List<Verification>> list() {
+        return ResponseEntity.ok(logisticsService.listVerifications());
     }
 
     @GetMapping("/{verificationId}")

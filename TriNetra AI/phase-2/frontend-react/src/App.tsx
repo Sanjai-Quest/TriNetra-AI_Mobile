@@ -9,7 +9,7 @@ export const App: React.FC = () => {
   const [claims, setClaims] = useState<ClaimSummary[]>([]);
   const [selectedClaimId, setSelectedClaimId] = useState<string | null>(null);
   const [selectedClaim, setSelectedClaim] = useState<ClaimDetail | null>(null);
-  const [statusFilter, setStatusFilter] = useState('DECISION_PENDING_REVIEW');
+  const [statusFilter, setStatusFilter] = useState('ALL');
   const [loading, setLoading] = useState(false);
   const [overrideModalOpen, setOverrideModalOpen] = useState(false);
 

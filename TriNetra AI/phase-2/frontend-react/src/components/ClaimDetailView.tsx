@@ -47,15 +47,32 @@ export const ClaimDetailView: React.FC<ClaimDetailViewProps> = ({ claim, onOpenO
       </header>
 
       <section className="grid grid-cols-2 gap-3">
-        <Metric label="Outbound weight" value={`${claim.outboundWeightGrams ?? 0} g`} />
-        <Metric label="Return weight" value={`${claim.returnWeightGrams ?? 0} g`} />
-        <Metric label="Difference" value={`${(claim.differencePercent ?? 0).toFixed(1)}%`} />
-        <Metric label="Threshold" value="5.0%" />
+        <Metric label="Expected serial" value={claim.expectedSerial || 'Not captured'} />
+        <Metric label="Observed serial" value={claim.observedSerial || 'Not captured'} />
+        <Metric label="Expected IMEI" value={claim.expectedImei || 'N/A'} />
+        <Metric label="Observed IMEI" value={claim.observedImei || 'N/A'} />
       </section>
 
       <section className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-4">
         <div className="flex items-center gap-2 text-amber-300 font-bold"><AlertTriangle className="w-4 h-4" /> {claim.state || 'INVESTIGATE'}</div>
-        <p className="mt-2 text-sm text-slate-300">{claim.reasoning || 'Deterministic reconciliation is pending.'}</p>
+        <p className="mt-2 text-sm text-slate-300">{claim.reasoning || 'Persisted V3 investigation data loaded.'}</p>
+      </section>
+
+      <section className="space-y-3">
+        <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">Checkpoints</h3>
+        {claim.checkpoints?.map(checkpoint => (
+          <div key={checkpoint.checkpointId} className="rounded-xl border border-slate-800 bg-slate-950/70 p-3 text-xs">
+            <div className="flex justify-between text-white"><span>Checkpoint {checkpoint.sequenceNumber}</span><strong>{checkpoint.decision}</strong></div>
+            <div className="mt-1 text-slate-400">Serial: {checkpoint.observedSerial} · IMEI: {checkpoint.observedImei || 'N/A'}</div>
+            <div className="mt-1 text-slate-500">{checkpoint.location || 'Location unavailable'}</div>
+          </div>
+        ))}
+      </section>
+
+      <section className="space-y-3">
+        <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">Custody and audit</h3>
+        <div className="text-xs text-slate-300">{claim.custody?.length || 0} custody events · {claim.audit?.length || 0} audit events</div>
+        {claim.custody?.map(event => <div key={event.custodyEventId} className="text-xs text-slate-400">{event.fromActor || 'Origin'} → {event.toActor} · {event.action}</div>)}
       </section>
 
       <section className="space-y-3">

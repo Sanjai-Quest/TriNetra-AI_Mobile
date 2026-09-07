@@ -151,6 +151,10 @@ public class LogisticsService {
                 .orElseThrow(() -> new IllegalArgumentException("Verification not found: " + verificationId));
     }
 
+    public List<Verification> listVerifications() {
+        return verificationRepository.findAll();
+    }
+
     public List<Checkpoint> checkpoints(String verificationId) {
         getVerification(verificationId);
         return checkpointRepository.findByVerificationIdOrderBySequenceNumberAsc(verificationId);
