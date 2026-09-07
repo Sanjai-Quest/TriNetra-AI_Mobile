@@ -1,0 +1,13 @@
+package com.trinetra.verdict.model;
+
+public enum ConflictType {
+    NONE,
+    IDENTITY_CONFLICT,
+    SERIAL_MISMATCH,
+    IMEI_MISMATCH,
+    IDENTITY_MISSING,
+    CONTINUITY_BROKEN,
+    MISSING_MANDATORY_EVIDENCE,
+    CONDITION_REVIEW,
+    CUSTODY_INVALID
+}

@@ -1,0 +1,146 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: fraud-detection-engine
+
+  # ─── Datasource (Phase 3: Hikari pool tuning) ───────────────────────────────
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/trinetra}
+    username: ${POSTGRES_USER:trinetra_user}
+    password: ${POSTGRES_PASSWORD:trinetra_dev_pass}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      keepalive-time: 30000
+      pool-name: TriNetra-FraudEngine
+      leak-detection-threshold: 60000
+
+  # ─── JPA (Phase 3: Flyway manages schema) ───────────────────────────────────
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
+  # ─── Flyway Migrations ───────────────────────────────────────────────────────
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    validate-on-migrate: true
+
+  # ─── Redis (Phase 3: explicit timeout) ──────────────────────────────────────
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:trinetra_redis_pass}
+      timeout: 5000ms                   # Redis: 5s max wait
+      connect-timeout: 2000ms
+
+  # ─── RabbitMQ ───────────────────────────────────────────────────────────────
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USER:trinetra_admin}
+    password: ${RABBITMQ_PASS:trinetra_rabbit_pass}
+    template:
+      receive-timeout: 60000
+      reply-timeout: 30000
+    listener:
+      simple:
+        retry:
+          enabled: true
+          initial-interval: 100ms
+          multiplier: 2.0
+          max-attempts: 3
+          max-interval: 1000ms
+
+  # ─── HTTP Request Timeout ────────────────────────────────────────────────────
+  mvc:
+    async:
+      request-timeout: 30000
+
+# ─── Actuator & Prometheus ──────────────────────────────────────────────────
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus,metrics,circuitbreakers,circuitbreakerevents,retries
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    tags:
+      application: ${spring.application.name}
+      phase: phase3
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+
+# ─── Resilience4j ────────────────────────────────────────────────────────────
+resilience4j:
+  circuitbreaker:
+    instances:
+      redisCache:
+        sliding-window-size: 10
+        failure-rate-threshold: 40
+        wait-duration-in-open-state: 15s      # Redis: shorter recovery window
+        permitted-number-of-calls-in-half-open-state: 2
+        minimum-number-of-calls: 5
+        slow-call-duration-threshold: 4s
+        slow-call-rate-threshold: 50
+        register-health-indicator: true
+      fraudRepository:
+        sliding-window-size: 10
+        failure-rate-threshold: 30
+        wait-duration-in-open-state: 30s
+        permitted-number-of-calls-in-half-open-state: 2
+        minimum-number-of-calls: 5
+        register-health-indicator: true
+      rabbitPublish:
+        sliding-window-size: 10
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 30s
+        minimum-number-of-calls: 5
+        register-health-indicator: true
+  retry:
+    instances:
+      redisCache:
+        max-attempts: 3
+        wait-duration: 100ms
+        enable-exponential-backoff: true
+        exponential-backoff-multiplier: 2.0
+        retry-exceptions:
+          - org.springframework.data.redis.RedisConnectionFailureException
+          - io.lettuce.core.RedisException
+      fraudRepository:
+        max-attempts: 3
+        wait-duration: 100ms
+        enable-exponential-backoff: true
+        exponential-backoff-multiplier: 2.0
+  timelimiter:
+    instances:
+      redisCache:
+        timeout-duration: 5s              # Redis: 5s max
+        cancel-running-future: true
+      fraudRepository:
+        timeout-duration: 15s
+        cancel-running-future: true
+
+# ─── Trinetra Queue Names ────────────────────────────────────────────────────
+trinetra:
+  queues:
+    evidence-uploaded: evidence.uploaded
+    fraud-analyzed: fraud.analyzed
+    dlq-failed-fraud: dlq.failed_fraud
+  # Cache TTLs (Phase 3: explicit policy)
+  cache:
+    fraud-signals-ttl-hours: 24
+    customer-profile-ttl-hours: 1

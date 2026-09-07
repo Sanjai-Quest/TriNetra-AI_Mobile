@@ -1,0 +1,6 @@
+Experiment_ID,Model_Configuration,TP,TN,FP,FN,Precision,Recall,F1_Score,FPR,FNR,FN_Reduction_vs_Best_Baseline,McNemar_Chi2,P_Value,Status
+EXP-001,Baseline 1 (Identity Only),30,905,0,65,1.0000,0.3158,0.4800,0.0000,0.6842,0.0%,—,—,COMPLETED
+EXP-001,Baseline 2 (Weight Only),40,905,0,55,1.0000,0.4211,0.5926,0.0000,0.5789,0.0%,—,—,COMPLETED
+EXP-001,Baseline 3 (Timeline Only),15,905,0,80,1.0000,0.1579,0.2727,0.0000,0.8421,0.0%,—,—,COMPLETED
+EXP-001,TriNetra AI (Multi-Source Reconciler),95,905,0,0,1.0000,1.0000,1.0000,0.0000,0.0000,100.0%,53.02,3.30e-13,COMPLETED
+EXP-004,TriNetra Phase 3 Load Test,26,0,0,0,1.0000,1.0000,1.0000,0.0000,0.0000,—,—,—,COMPLETED

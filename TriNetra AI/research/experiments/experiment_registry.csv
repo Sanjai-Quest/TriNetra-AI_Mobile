@@ -1,0 +1,5 @@
+Experiment_ID,Name,Hypothesis_Tested,Dataset_Used,Sample_Size,Seed,Baselines_Evaluated,Evaluation_Script,Status
+EXP-001,Phase 1 Synthetic Benchmark,Multi-source reconciliation eliminates FNs compared to single-source baselines,phase-1/data/synthetic_evidence.csv,1000,42,"Identity-Only, Weight-Only, Timeline-Only",phase-1/evaluation/evaluate.py,COMPLETED
+EXP-002,Real Complaint Feasibility Test,Real consumer complaint claims map to detectable supply-chain evidence gaps,xscrapper/trinetra_real_complaints_expanded.csv,1050,N/A,Single-Source QC rules,phase-1/evaluate_real_complaints.py,COMPLETED
+EXP-003,Multi-modal Vision Verification,Optical & EXIF features detect tag tampering and wear anomalies,phase-2/tests/test_multimodal_processor.py,100,N/A,Heuristic rule filter,phase-2/services/multimodal_processor/main.py,COMPLETED
+EXP-004,Production Hardening Load Benchmark,Sub-2000ms p95 latency under 50 concurrent users with 0% failure,phase-3/load_test/locustfile.py,1000+,N/A,Un-hardened baseline,phase-3/load_test/run_load_test.py,COMPLETED

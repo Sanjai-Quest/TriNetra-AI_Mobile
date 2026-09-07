@@ -1,0 +1,13 @@
+Evidence Type,Available,Missing,% Gap
+Weight / Scale Records,0,1050,100%
+Warehouse Pack-Station CCTV,0,1050,100%
+Carrier GPS Timestamps,0,1050,100%
+Customer Video (unverified),117,933,89%
+Customer Photos (unverified),446,604,58%
+Any Measurable Physical Evidence,668,382,36%
+
+--- Electronics Subset ---,,,
+Evidence Type,Available,Missing,% Gap
+Weight/Scale Records (Electronics),0,195,100%
+Pack-Station CCTV (Electronics),0,195,100%
+Customer Photos (Electronics),106,89,46%

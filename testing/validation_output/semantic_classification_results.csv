@@ -1,0 +1,1051 @@
+complaint_id,product_category,conflict_type_inferred,complaint_text_first_50,confidence_flag,reason,pre_labeled_weight,pre_labeled_identity,pre_labeled_condition,pre_labeled_temporal,evidence_gap
+CMP_00001,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00002,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00003,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00004,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00005,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00006,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00007,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00008,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00009,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00010,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00011,Other/Unspecified,TEMPORAL_CONFLICT,Received damaged home decor item from Ajio. Outer ...,HIGH,"Keywords: window expired, return window",False,False,True,False,True
+CMP_00012,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00013,Other/Unspecified,DAMAGE_ISSUE,Delivery boy demanded cash for open box delivery. ...,HIGH,"Keywords: broken, open box",False,False,False,False,True
+CMP_00014,Other/Unspecified,TEMPORAL_CONFLICT,Received damaged home decor item from Ajio. Outer ...,HIGH,"Keywords: window expired, return window",False,False,True,False,True
+CMP_00015,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00016,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00017,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00018,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during sale. De...,HIGH,"Keywords: empty, soap",True,False,False,False,True
+CMP_00019,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00020,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00021,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00022,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00023,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00024,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00025,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00026,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00027,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00028,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00029,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00030,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00031,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00032,Electronics,DAMAGE_ISSUE,Returned defective kitchen appliance to Snapdeal w...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00033,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00034,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00035,Home/Kitchen,TEMPORAL_CONFLICT,Ordered non-stick pan on Meesho. Item was cracked....,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00036,Other/Unspecified,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00037,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00038,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00039,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00040,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00041,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00042,Electronics,UNCLASSIFIABLE,Parcel delayed by 10 days. No response from Myntra...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00043,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00044,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00045,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,False,False,True
+CMP_00046,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00047,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00048,Other/Unspecified,DAMAGE_ISSUE,Delivery boy demanded cash for open box delivery. ...,HIGH,"Keywords: broken, open box",False,False,False,False,True
+CMP_00049,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00050,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,False,False,True
+CMP_00051,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00052,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00053,Other/Unspecified,TEMPORAL_CONFLICT,Received damaged home decor item from Ajio. Outer ...,HIGH,"Keywords: window expired, return window",False,False,True,False,True
+CMP_00054,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00055,Other/Unspecified,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00056,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00057,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00058,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00059,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00060,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00061,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00062,Home/Kitchen,TEMPORAL_CONFLICT,Ordered non-stick pan on Meesho. Item was cracked....,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00063,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during sale. De...,HIGH,"Keywords: empty, soap",True,False,False,False,True
+CMP_00064,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00065,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00066,Other/Unspecified,IDENTITY_CONFLICT,Order marked delivered on JioMart app but parcel n...,MEDIUM,Keywords: fake,False,True,False,True,True
+CMP_00067,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00068,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00069,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00070,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00071,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00072,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00073,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00074,Electronics,UNCLASSIFIABLE,Parcel delayed by 10 days. No response from Myntra...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00075,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00076,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00077,Accessories,UNCLASSIFIABLE,Ordered leather wallet from D2C store. Delivered p...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00078,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00079,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00080,Other/Unspecified,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00081,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00082,Other/Unspecified,DAMAGE_ISSUE,Delivery boy demanded cash for open box delivery. ...,HIGH,"Keywords: broken, open box",False,False,False,False,True
+CMP_00083,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00084,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00085,Accessories,UNCLASSIFIABLE,Ordered leather wallet from D2C store. Delivered p...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00086,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00087,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00088,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00089,Other/Unspecified,LEGITIMATE_COMPLAINT,Charged extra price mismatch on checkout. Refund p...,MEDIUM,Keywords: received,False,False,False,False,True
+CMP_00090,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00091,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00092,Electronics,DAMAGE_ISSUE,Returned defective kitchen appliance to Snapdeal w...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00093,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00094,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00095,Other/Unspecified,DAMAGE_ISSUE,Delivery boy demanded cash for open box delivery. ...,HIGH,"Keywords: broken, open box",False,False,False,False,True
+CMP_00096,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00097,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00098,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during sale. De...,HIGH,"Keywords: empty, soap",True,False,False,False,True
+CMP_00099,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00100,Accessories,UNCLASSIFIABLE,Ordered leather wallet from D2C store. Delivered p...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00101,Electronics,UNCLASSIFIABLE,Parcel delayed by 10 days. No response from Myntra...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00102,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00103,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00104,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00105,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00106,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00107,Other/Unspecified,TEMPORAL_CONFLICT,Received damaged home decor item from Ajio. Outer ...,HIGH,"Keywords: window expired, return window",False,False,True,False,True
+CMP_00108,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00109,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00110,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00111,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00112,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00113,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00114,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00115,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00116,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00117,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00118,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00119,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,False,False,True
+CMP_00120,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00121,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00122,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00123,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00124,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00125,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,False,False,True
+CMP_00126,Electronics,UNCLASSIFIABLE,Parcel delayed by 10 days. No response from Myntra...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00127,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00128,Other/Unspecified,IDENTITY_CONFLICT,Order marked delivered on JioMart app but parcel n...,MEDIUM,Keywords: fake,False,True,False,True,True
+CMP_00129,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00130,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00131,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00132,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00133,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00134,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00135,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00136,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00137,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00138,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00139,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00140,Other/Unspecified,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00141,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00142,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00143,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00144,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00145,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00146,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00147,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00148,Electronics,DAMAGE_ISSUE,Returned defective kitchen appliance to Snapdeal w...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00149,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00150,Accessories,UNCLASSIFIABLE,Ordered leather wallet from D2C store. Delivered p...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00151,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00152,Other/Unspecified,LEGITIMATE_COMPLAINT,Charged extra price mismatch on checkout. Refund p...,MEDIUM,Keywords: received,False,False,False,False,True
+CMP_00153,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00154,Home/Kitchen,TEMPORAL_CONFLICT,Ordered non-stick pan on Meesho. Item was cracked....,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00155,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00156,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00157,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00158,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00159,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00160,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00161,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00162,Other/Unspecified,IDENTITY_CONFLICT,Order marked delivered on JioMart app but parcel n...,MEDIUM,Keywords: fake,False,True,False,True,True
+CMP_00163,Home/Kitchen,TEMPORAL_CONFLICT,Ordered non-stick pan on Meesho. Item was cracked....,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00164,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00165,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during sale. De...,HIGH,"Keywords: empty, soap",True,False,False,False,True
+CMP_00166,Other/Unspecified,IDENTITY_CONFLICT,Order marked delivered on JioMart app but parcel n...,MEDIUM,Keywords: fake,False,True,False,True,True
+CMP_00167,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00168,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00169,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00170,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00171,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00172,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00173,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00174,Other/Unspecified,LEGITIMATE_COMPLAINT,Charged extra price mismatch on checkout. Refund p...,MEDIUM,Keywords: received,False,False,False,False,True
+CMP_00175,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00176,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00177,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00178,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00179,Other/Unspecified,LEGITIMATE_COMPLAINT,Charged extra price mismatch on checkout. Refund p...,MEDIUM,Keywords: received,False,False,False,False,True
+CMP_00180,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00181,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00182,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00183,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00184,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00185,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00186,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00187,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00188,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00189,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00190,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00191,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00192,Other/Unspecified,TEMPORAL_CONFLICT,Received damaged home decor item from Ajio. Outer ...,HIGH,"Keywords: window expired, return window",False,False,True,False,True
+CMP_00193,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00194,Other/Unspecified,DAMAGE_ISSUE,Delivery boy demanded cash for open box delivery. ...,HIGH,"Keywords: broken, open box",False,False,False,False,True
+CMP_00195,Other/Unspecified,TEMPORAL_CONFLICT,Received damaged home decor item from Ajio. Outer ...,HIGH,"Keywords: window expired, return window",False,False,True,False,True
+CMP_00196,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00197,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00198,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00199,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during sale. De...,HIGH,"Keywords: empty, soap",True,False,False,False,True
+CMP_00200,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00201,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00202,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00203,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00204,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00205,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00206,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00207,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00208,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00209,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00210,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00211,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00212,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00213,Electronics,DAMAGE_ISSUE,Returned defective kitchen appliance to Snapdeal w...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00214,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00215,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00216,Home/Kitchen,TEMPORAL_CONFLICT,Ordered non-stick pan on Meesho. Item was cracked....,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00217,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00218,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00219,Apparel/Clothing,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00220,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00221,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00222,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00223,Electronics,UNCLASSIFIABLE,Parcel delayed by 10 days. No response from Myntra...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00224,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00225,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00226,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00227,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,False,False,True
+CMP_00228,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00229,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00230,Other/Unspecified,DAMAGE_ISSUE,Delivery boy demanded cash for open box delivery. ...,HIGH,"Keywords: broken, open box",False,False,False,False,True
+CMP_00231,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00232,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,False,False,True
+CMP_00233,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00234,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00235,Other/Unspecified,TEMPORAL_CONFLICT,Received damaged home decor item from Ajio. Outer ...,HIGH,"Keywords: window expired, return window",False,False,True,False,True
+CMP_00236,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00237,Other/Unspecified,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00238,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00239,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00240,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00241,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00242,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00243,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00244,Home/Kitchen,TEMPORAL_CONFLICT,Ordered non-stick pan on Meesho. Item was cracked....,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00245,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during sale. De...,HIGH,"Keywords: empty, soap",True,False,False,False,True
+CMP_00246,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00247,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00248,Other/Unspecified,IDENTITY_CONFLICT,Order marked delivered on JioMart app but parcel n...,MEDIUM,Keywords: fake,False,True,False,True,True
+CMP_00249,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00250,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00251,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00252,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00253,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00254,Electronics,UNCLASSIFIABLE,Parcel delayed by 10 days. No response from Myntra...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00255,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00256,Apparel/Clothing,DAMAGE_ISSUE,I ordered an XL size kurta from Myntra; but receiv...,MEDIUM,Keywords: damaged,False,False,True,False,True
+CMP_00257,Accessories,UNCLASSIFIABLE,Ordered leather wallet from D2C store. Delivered p...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00258,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00259,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer saree on Meesho but r...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00260,Other/Unspecified,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00261,Apparel/Clothing,DAMAGE_ISSUE,Returned a defective dress to D2C fashion store ov...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00262,Other/Unspecified,DAMAGE_ISSUE,Delivery boy demanded cash for open box delivery. ...,HIGH,"Keywords: broken, open box",False,False,False,False,True
+CMP_00263,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00264,Accessories,UNCLASSIFIABLE,Ordered leather wallet from D2C store. Delivered p...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00265,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00266,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00267,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00268,Other/Unspecified,LEGITIMATE_COMPLAINT,Charged extra price mismatch on checkout. Refund p...,MEDIUM,Keywords: received,False,False,False,False,True
+CMP_00269,Apparel/Clothing,IDENTITY_CONFLICT,Ordered a Levi's denim jacket on Flipkart sale. Re...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00270,Electronics,DAMAGE_ISSUE,Returned defective kitchen appliance to Snapdeal w...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00271,Apparel/Clothing,IDENTITY_CONFLICT,Bought a cotton dress on Amazon Fashion; but recei...,MEDIUM,Keywords: different,False,False,False,True,True
+CMP_00272,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00273,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00274,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00275,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00276,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00277,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00278,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00279,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00280,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00281,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00282,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00283,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00284,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00285,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00286,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00287,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00288,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00289,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00290,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00291,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00292,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00293,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00294,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00295,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00296,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00297,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00298,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00299,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00300,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00301,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00302,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00303,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00304,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00305,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00306,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00307,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00308,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00309,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00310,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00311,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00312,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00313,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00314,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00315,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00316,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00317,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00318,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00319,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00320,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00321,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00322,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00323,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00324,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00325,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00326,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00327,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00328,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00329,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00330,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00331,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00332,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00333,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00334,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00335,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00336,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00337,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00338,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00339,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00340,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00341,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00342,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00343,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00344,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00345,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00346,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00347,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00348,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00349,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00350,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00351,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00352,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00353,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00354,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00355,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00356,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00357,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00358,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00359,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00360,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00361,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00362,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00363,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00364,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00365,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00366,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00367,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00368,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00369,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00370,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00371,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00372,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00373,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00374,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00375,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00376,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00377,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00378,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00379,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00380,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00381,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00382,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00383,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00384,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00385,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00386,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00387,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00388,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00389,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00390,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00391,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00392,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00393,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00394,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00395,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00396,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00397,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00398,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00399,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00400,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00401,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00402,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00403,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00404,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00405,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00406,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00407,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00408,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00409,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00410,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00411,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00412,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00413,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00414,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00415,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00416,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00417,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00418,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00419,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00420,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00421,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00422,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00423,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00424,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00425,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00426,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00427,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00428,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00429,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00430,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00431,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00432,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00433,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00434,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00435,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00436,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00437,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00438,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00439,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00440,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00441,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00442,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00443,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00444,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00445,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00446,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00447,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00448,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00449,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00450,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00451,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00452,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00453,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00454,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00455,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00456,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00457,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00458,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00459,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00460,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00461,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00462,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00463,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00464,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00465,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00466,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00467,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00468,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00469,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00470,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00471,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00472,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00473,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00474,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00475,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00476,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00477,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00478,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00479,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00480,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00481,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00482,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00483,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00484,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00485,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00486,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00487,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00488,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00489,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00490,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00491,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00492,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00493,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00494,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00495,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00496,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00497,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00498,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00499,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00500,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00501,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00502,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00503,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00504,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00505,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00506,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00507,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00508,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00509,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00510,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00511,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00512,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00513,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00514,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00515,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00516,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00517,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00518,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00519,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00520,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00521,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00522,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00523,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00524,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00525,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00526,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00527,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00528,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00529,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00530,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00531,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00532,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00533,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00534,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00535,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00536,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00537,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00538,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00539,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00540,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00541,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00542,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00543,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00544,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00545,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00546,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00547,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00548,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00549,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00550,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00551,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00552,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00553,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00554,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00555,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00556,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00557,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00558,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00559,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00560,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00561,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00562,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00563,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00564,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00565,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00566,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00567,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00568,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00569,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00570,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00571,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00572,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00573,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00574,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00575,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00576,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00577,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00578,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00579,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00580,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00581,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00582,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00583,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00584,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00585,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00586,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00587,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00588,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00589,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00590,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00591,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00592,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00593,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00594,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00595,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00596,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00597,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00598,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00599,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00600,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00601,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00602,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00603,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00604,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00605,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00606,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00607,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00608,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00609,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00610,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00611,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00612,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00613,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00614,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00615,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00616,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00617,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00618,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00619,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00620,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00621,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00622,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00623,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00624,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00625,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00626,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00627,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00628,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00629,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00630,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00631,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00632,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00633,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00634,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00635,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00636,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00637,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00638,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00639,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00640,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00641,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00642,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00643,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00644,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00645,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00646,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00647,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00648,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00649,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00650,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00651,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00652,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00653,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00654,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00655,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00656,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00657,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00658,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00659,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00660,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00661,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00662,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00663,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00664,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00665,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00666,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00667,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00668,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00669,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00670,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00671,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00672,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00673,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00674,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00675,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00676,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00677,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00678,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00679,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00680,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00681,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00682,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00683,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00684,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00685,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00686,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00687,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00688,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00689,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00690,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00691,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00692,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00693,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00694,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00695,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00696,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00697,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00698,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00699,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00700,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00701,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00702,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00703,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00704,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00705,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00706,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00707,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00708,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00709,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00710,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00711,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00712,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00713,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00714,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00715,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00716,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00717,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00718,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00719,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00720,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00721,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00722,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00723,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00724,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00725,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00726,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00727,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00728,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00729,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00730,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00731,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00732,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00733,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00734,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00735,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00736,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00737,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00738,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00739,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00740,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00741,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00742,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00743,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00744,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00745,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00746,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00747,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00748,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00749,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00750,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00751,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00752,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00753,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00754,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00755,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00756,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00757,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00758,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00759,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00760,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00761,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00762,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00763,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00764,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00765,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00766,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00767,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00768,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00769,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00770,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00771,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00772,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00773,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00774,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00775,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00776,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00777,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00778,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00779,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00780,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00781,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00782,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00783,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00784,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00785,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00786,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00787,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00788,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00789,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00790,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00791,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00792,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00793,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00794,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00795,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00796,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00797,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00798,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00799,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00800,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00801,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00802,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00803,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00804,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00805,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00806,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00807,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00808,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00809,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00810,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00811,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00812,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00813,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00814,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00815,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00816,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00817,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00818,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00819,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00820,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00821,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00822,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00823,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00824,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00825,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00826,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00827,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00828,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00829,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00830,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00831,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00832,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00833,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00834,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00835,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00836,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00837,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00838,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00839,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00840,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00841,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00842,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00843,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00844,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00845,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00846,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00847,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00848,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00849,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00850,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00851,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00852,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00853,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00854,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00855,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00856,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00857,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00858,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00859,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00860,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00861,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00862,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00863,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00864,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00865,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00866,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00867,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00868,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00869,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00870,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00871,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00872,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00873,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00874,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00875,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00876,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00877,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00878,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00879,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00880,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00881,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00882,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00883,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00884,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00885,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00886,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00887,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00888,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00889,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00890,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00891,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00892,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00893,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00894,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00895,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00896,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00897,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00898,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00899,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00900,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00901,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00902,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00903,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00904,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00905,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00906,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00907,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00908,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00909,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00910,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00911,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00912,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00913,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00914,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00915,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00916,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00917,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00918,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00919,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00920,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00921,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00922,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00923,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00924,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00925,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00926,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00927,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00928,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00929,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00930,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00931,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00932,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00933,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00934,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00935,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00936,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00937,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00938,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00939,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00940,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00941,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00942,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00943,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00944,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00945,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00946,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00947,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00948,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00949,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00950,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00951,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00952,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00953,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00954,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00955,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00956,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00957,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00958,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00959,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00960,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00961,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00962,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00963,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_00964,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_00965,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00966,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00967,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_00968,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_00969,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_00970,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_00971,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_00972,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_00973,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_00974,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_00975,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00976,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_00977,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00978,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00979,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_00980,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_00981,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_00982,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_00983,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_00984,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00985,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_00986,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_00987,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_00988,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_00989,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_00990,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_00991,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_00992,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_00993,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_00994,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_00995,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_00996,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_00997,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_00998,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_00999,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_01000,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_01001,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_01002,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_01003,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_01004,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_01005,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_01006,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_01007,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_01008,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_01009,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_01010,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_01011,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_01012,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_01013,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
+CMP_01014,Apparel/Clothing,DAMAGE_ISSUE,Ordered a brand new designer silk saree on Meesho ...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_01015,Apparel/Clothing,IDENTITY_CONFLICT,Ordered Levi's denim jacket on Flipkart sale. Rece...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_01016,Apparel/Clothing,LEGITIMATE_COMPLAINT,Bought a cotton formal shirt on Amazon Fashion; bu...,MEDIUM,Keywords: received,False,False,False,True,True
+CMP_01017,Apparel/Clothing,DAMAGE_ISSUE,Bought a nightwear set on Nykaa Fashion. The item ...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_01018,Apparel/Clothing,LEGITIMATE_COMPLAINT,Ordered an ethnic dress from a Shopify D2C clothin...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_01019,Apparel/Clothing,WEIGHT_ANOMALY,Ordered formal shirt set on JioMart. Received torn...,MEDIUM,Keywords: missing,False,False,True,False,True
+CMP_01020,Apparel/Clothing,IDENTITY_CONFLICT,Ordered formal trousers on Snapdeal. Received wron...,HIGH,"Keywords: fake, wrong size",False,True,False,False,True
+CMP_01021,Apparel/Clothing,UNCLASSIFIABLE,Ordered luxury blazer on TataCliq. Delivered witho...,LOW,No keyword matches found,False,False,False,False,True
+CMP_01022,Footwear,IDENTITY_CONFLICT,Bought Nike sneakers from an Amazon seller. Receiv...,HIGH,"Keywords: counterfeit, fake",False,True,False,True,True
+CMP_01023,Footwear,UNCLASSIFIABLE,Ordered Puma running shoes size 9 on Flipkart. Del...,LOW,No keyword matches found,False,False,False,False,True
+CMP_01024,Footwear,DAMAGE_ISSUE,Bought formal leather shoes on Myntra sale. Delive...,MEDIUM,Keywords: open box,False,True,True,False,True
+CMP_01025,Footwear,UNCLASSIFIABLE,Ordered Adidas sneakers on Ajio. Delivered wrong s...,LOW,No keyword matches found,False,True,True,True,True
+CMP_01026,Footwear,DAMAGE_ISSUE,Ordered party heels on Nykaa Fashion. Arrived brok...,MEDIUM,Keywords: broken,False,False,True,False,True
+CMP_01027,Footwear,WEIGHT_ANOMALY,Ordered sports shoes on Meesho. Package arrived li...,HIGH,"Keywords: light, empty",True,False,False,False,True
+CMP_01028,Footwear,WEIGHT_ANOMALY,Bought handmade leather boots from an Instagram D2...,MEDIUM,Keywords: gram,False,False,False,False,True
+CMP_01029,Electronics,WEIGHT_ANOMALY,Ordered a mobile phone on Flipkart during Big Bill...,MEDIUM,Keywords: soap,True,False,False,False,True
+CMP_01030,Electronics,DAMAGE_ISSUE,Returned defective laptop to Amazon 14 days ago. T...,MEDIUM,Keywords: defective,False,False,False,True,True
+CMP_01031,Electronics,IDENTITY_CONFLICT,Bought Bluetooth earphones on JioMart. Received co...,MEDIUM,Keywords: counterfeit,False,True,False,False,True
+CMP_01032,Electronics,DAMAGE_ISSUE,Ordered smartphone charger on Snapdeal. Package se...,MEDIUM,Keywords: torn,False,True,True,False,True
+CMP_01033,Electronics,UNCLASSIFIABLE,Paid via UPI for smartwatch on a Shopify store. It...,LOW,No keyword matches found,False,False,False,True,True
+CMP_01034,Electronics,DAMAGE_ISSUE,Purchased convection microwave on Croma online. De...,HIGH,"Keywords: shattered, dented",False,False,True,True,True
+CMP_01035,Electronics,UNCLASSIFIABLE,Delivery agent forced OTP before opening box. Insi...,LOW,No keyword matches found,False,True,False,False,True
+CMP_01036,Electronics,UNCLASSIFIABLE,Ordered brand new Samsung phone on Amazon. Box sea...,LOW,No keyword matches found,False,True,False,False,True
+CMP_01037,Beauty/Personal Care,IDENTITY_CONFLICT,Bought MAC lipstick on Nykaa sale. Received fake c...,HIGH,"Keywords: counterfeit, fake",False,True,True,False,True
+CMP_01038,Beauty/Personal Care,WEIGHT_ANOMALY,Ordered face wash and lotion combo on Amazon. Deli...,MEDIUM,Keywords: missing,True,False,False,False,True
+CMP_01039,Beauty/Personal Care,TEMPORAL_CONFLICT,Perfume ordered on Flipkart arrived shattered with...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_01040,Beauty/Personal Care,LEGITIMATE_COMPLAINT,Ordered hair serum online but received expired fac...,MEDIUM,Keywords: received,False,True,False,False,True
+CMP_01041,Beauty/Personal Care,UNCLASSIFIABLE,Ordered luxury foundation on Myntra. Box had no ta...,LOW,No keyword matches found,False,True,True,False,True
+CMP_01042,Home/Appliances,UNCLASSIFIABLE,Ordered non-stick 3-piece cookware set. Package ar...,LOW,No keyword matches found,True,False,False,False,True
+CMP_01043,Home/Appliances,DAMAGE_ISSUE,Bought mixer grinder on Flipkart. Motor jar base w...,MEDIUM,Keywords: cracked,False,False,False,True,True
+CMP_01044,Home/Appliances,WEIGHT_ANOMALY,Ordered set of 4 velvet curtains in dark blue. Rec...,MEDIUM,Keywords: light,False,True,False,False,True
+CMP_01045,Home/Appliances,DAMAGE_ISSUE,Ordered household cleaning liquids on JioMart. Bot...,MEDIUM,Keywords: leaked,False,False,True,False,True
+CMP_01046,Accessories,IDENTITY_CONFLICT,Ordered Ray-Ban sunglasses on Ajio Luxe. Arrived w...,MEDIUM,Keywords: counterfeit,False,True,True,False,True
+CMP_01047,Accessories,TEMPORAL_CONFLICT,Purchased laptop backpack on Myntra. Main compartm...,MEDIUM,Keywords: policy,False,False,True,False,True
+CMP_01048,Accessories,WEIGHT_ANOMALY,Ordered analog watch on Amazon India. Parcel was l...,HIGH,"Keywords: light, empty, weight",True,False,False,False,True
+CMP_01049,Apparel/Clothing,DAMAGE_ISSUE,Ordered an XL size kurta set from Myntra; but rece...,MEDIUM,Keywords: defective,False,False,False,False,True
+CMP_01050,Apparel/Clothing,IDENTITY_CONFLICT,Received wrong size jeans from Ajio instead of Med...,MEDIUM,Keywords: wrong size,False,True,False,True,True
