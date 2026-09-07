@@ -24,6 +24,8 @@ public class LogisticsController {
             return ResponseEntity.status(HttpStatus.CREATED).body(logisticsService.openVerification(request));
         } catch (IllegalArgumentException error) {
             return error(HttpStatus.BAD_REQUEST, error.getMessage());
+        } catch (IllegalStateException error) {
+            return error(HttpStatus.CONFLICT, error.getMessage());
         }
     }
 
@@ -71,6 +73,8 @@ public class LogisticsController {
                     .body(logisticsService.recordCustody(verificationId, request));
         } catch (IllegalArgumentException error) {
             return error(HttpStatus.BAD_REQUEST, error.getMessage());
+        } catch (IllegalStateException error) {
+            return error(HttpStatus.CONFLICT, error.getMessage());
         }
     }
 

@@ -105,6 +105,9 @@ public class LogisticsService {
         if (duplicate.isPresent()) return duplicate.get();
         requireText(request.getCheckpointId(), "checkpointId");
         requireText(request.getToActor(), "toActor");
+        if (verification.getState() != VerificationState.PASS) {
+            throw new IllegalStateException("Handoff blocked while verification is " + verification.getState());
+        }
         if (!checkpointRepository.existsById(request.getCheckpointId())) {
             throw new IllegalArgumentException("Checkpoint not found: " + request.getCheckpointId());
         }
